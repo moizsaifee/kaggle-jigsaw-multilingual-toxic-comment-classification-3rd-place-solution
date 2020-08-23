@@ -1,7 +1,8 @@
 Hello!
 
 Below you can find a outline of how to reproduce our solution for the Jigsaw Multilingual Toxic Comment Classification competition.
-If you run into any trouble with the setup/code or have any questions please contact us at nashentony@gmail.com (Igor Vikhrov) or moiz.saifee@gmail.com (Moiz Saifee)
+
+![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/1.png)
 
 
 #MODEL BUILD: There are three options to produce the solution.
