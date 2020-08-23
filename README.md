@@ -2,16 +2,18 @@ Hello!
 
 Here we provide a high level overview and various underlying details of the 3rd place winning solution in the Kaggle Jigsaw Multilingual Toxic Comment classification. 
 
-Please note that while we are sharing the complete code and blending scripts etc, we can't share the input data due to upload size limitation on Github, so re-producing the solution would take some work and it won't be as simple as hitting a button. The main purpose of sharing the code is to provide 
+Please note that while we are sharing the complete code and blending scripts etc, we can't share the input data / cahched models etc due to file size limit on Github.
 
-## Solution Summary
+# Solution Summary
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/1.png)
 
-## Additional High level details 
+# Additional High level details 
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/2.png)
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/3.png)
 
-#MODEL BUILD: There are three options to produce the solution.
+# Code / Implementation 
+
+## MODEL BUILD: There are three options to produce the solution.
 1) very fast prediction
     a) runs in a few minutes
     b) uses precomputed neural network predictions
@@ -35,7 +37,7 @@ python ./train.py
 
 
 
-#CONTENTS
+## CONTENTS
 Input/Igor/test.csv.zip       :original kaggle test data
 Input/Igor/validation.csv.zip         : original kaggle validation data
 
@@ -66,24 +68,24 @@ Output/Predictions/submission.csv : final submission file
 
 
 
-#HARDWARE: (The following specs were used to create the original solution)
+## HARDWARE: (The following specs were used to create the original solution)
 v3-128 TPU - need for TF training (All TF models were trained via Kaggle). It's important that instance has 16Gb memory per core (128 totally)
 64Gb memory - need for PyTorch training (All PyTorch models were trained via Google Colab Pro which has more memory than Kaggle instance but less TPU memory (8 vs 16))
 Access to internet for downloading packages
 
 
-#SOFTWARE (python packages are detailed separately in `requirements.txt`):
+## SOFTWARE (python packages are detailed separately in `requirements.txt`):
 Python 3.6.9
 
 
 WARNING! Do no install pytorch-xla-env-setup.py before starting TF code. In this case there is an incompatibility in using TPU via TF and via PyTorch in the same instance runtime. The valid sequence of running (including install packages) is in ./train.py and ./inference.py.
 
 
-#DATA SETUP
+## DATA SETUP
 
 
-#DATA PROCESSING
-# The train/predict code will also call this script if it has not already been run on the relevant data.
+## DATA PROCESSING
+### The train/predict code will also call this script if it has not already been run on the relevant data.
 python ./prepare_data_train.py
 python ./prepare_data_inference.py
 
