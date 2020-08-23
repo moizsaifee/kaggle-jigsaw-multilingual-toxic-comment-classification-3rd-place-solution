@@ -1,0 +1,15 @@
+{
+  "mas_data_prep_inp_path":  "./Input/Common/",
+
+  "mas_data_prep_out_path":  "./Input/Moiz/train/",
+  "mas_train_out_model_path": "./Output/Models/Moiz_dev/",
+  "mas_predict_inp_path": "./Input/Moiz/test/",
+
+  "mas_train_dev_mode": 0,
+  "mas_train_inp_path": "./Input/Moiz/train/",
+
+  "mas_predict_dev_mode": 0,
+  "mas_predict_out_path": "./Output/Predictions/Moiz/",
+  "mas_predict_model_path": "./Output/Models/Moiz/"
+
+}
