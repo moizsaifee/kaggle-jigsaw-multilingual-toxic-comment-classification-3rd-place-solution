@@ -1,9 +1,15 @@
 Hello!
 
-Below you can find a outline of how to reproduce our solution for the Jigsaw Multilingual Toxic Comment Classification competition.
+Here we provide a high level overview and various underlying details of the 3rd place winning solution in the Kaggle Jigsaw Multilingual Toxic Comment classification. 
 
+Please note that while we are sharing the complete code and blending scripts etc, we can't share the input data due to upload size limitation on Github, so re-producing the solution would take some work and it won't be as simple as hitting a button. The main purpose of sharing the code is to provide 
+
+## Solution Summary
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/1.png)
 
+## Additional High level details 
+![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/2.png)
+![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/3.png)
 
 #MODEL BUILD: There are three options to produce the solution.
 1) very fast prediction
