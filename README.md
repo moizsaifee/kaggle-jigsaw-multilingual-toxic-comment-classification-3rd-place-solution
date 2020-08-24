@@ -1,13 +1,19 @@
 Hello!
 
-Here we provide a high level overview and various underlying details of the 3rd place winning solution in the Kaggle Jigsaw Multilingual Toxic Comment classification. 
+Here is what you'll find in this repository:
+* High level overview of components of our solution which led to our final score (Solution Summary)
+* Summary of various components of our solution (Component Summary)
+* Complete data processing, model training, scoring and blending code for all the components
 
-Please note that while we are sharing the complete code and blending scripts etc, we can't share the input data / cahched models etc due to file size limit on Github.
+Here is what you'll NOT find in this repository:
+* The input / translated data, chached models (due to Github file size limit)
+* Point and click reproducibility (due to absence of cached input & processed data /  models)
+
 
 # Solution Summary
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/1.png)
 
-# Additional High level details 
+# Component Summary
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/2.png)
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/3.png)
 
