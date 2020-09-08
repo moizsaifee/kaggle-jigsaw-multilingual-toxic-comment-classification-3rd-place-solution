@@ -10,6 +10,9 @@ Here is what you'll NOT find in this repository:
 * Point and click reproducibility (due to absence of cached input & processed data /  models)
 
 
+Some additional info can be found on [this](https://towardsdatascience.com/kaggle-3rd-place-solution-jigsaw-multilingual-toxic-comment-classification-e36d7d194bfb) blog 
+
+
 # Solution Summary
 ![Solution Summary](https://github.com/moizsaifee/kaggle-jigsaw-multilingual-toxic-comment-classification-3rd-place-solution/blob/master/img/1.png)
 
